@@ -1,4 +1,4 @@
-package com.example.demo.curso.domain;
+package domain;
 
 public enum Uf {
 

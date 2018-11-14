@@ -1,4 +1,4 @@
-package com.example.demo.curso.domain;
+package domain;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

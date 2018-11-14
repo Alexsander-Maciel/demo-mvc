@@ -1,21 +1,20 @@
-package com.example.demo.curso.controller;
+package web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 @Controller
-@RequestMapping("/departamentos")
-public class DepartamentoController {
+@RequestMapping("/funcionarios")
+public class FuncionariosController {
 	@GetMapping("/cadastrar")
 	public String cadastrar()
 	{
-		return "/departamento/cadastro";
+		return "/funcionario/cadastro";
 	}
 	
 	@GetMapping("/listar")
 	public String listar()
 	{
-		return "/departamento/lista";
+		return "/funcionario/lista";
 	}
 }
